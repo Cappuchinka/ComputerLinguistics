@@ -32,3 +32,22 @@
 ## Лабораторная работа №4
 ### Работа с регулярными выражениями
 Используя регулярные выражения, найти и получить элементы текста в соответствии с шаблонами
+
+## Лабораторная работа №5
+### Предобработка текста на русском языке (библиотека Наташа)
+
+1. Выберите датасет из предложенных вариантов:
+
+    * [Russian Social Media Text Classification](https://www.kaggle.com/datasets/mikhailma/russian-social-media-text-classification)
+    * [Russian Sentiment Emotion Datasets](https://github.com/searayeah/russian-sentiment-emotion-datasets/tree/main)
+    * [RusAge: Corpus for Age-Based Text Classification](https://www.kaggle.com/datasets/oldaandozerskaya/fiction-corpus-for-agebased-text-classification)
+
+2. Проведите анализ датасета:
+
+    * Постройте график распределения классов
+    * Найдите статистику по выбранному корпусу текстов
+    * Проведите токенизацию, лемматизацию, стемминг с помощью библиотеки ```natasha```
+    * Проведите очистку данных с помощью удаления стоп-слов и регулярных выражений
+    * Выделите ключевые слова и постройте график дисперсии
+
+3. Полученные преобразования по токенизации и очистке текста представьте в виде sklearn pipeline.
